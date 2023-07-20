@@ -23,7 +23,7 @@
               <p class="item-title">{{ item.product.title }}</p>
               <p class="item-quantity">Quantity: {{ item.quantity }}</p>
               <div class="item-size-text">
-                Size
+                Color
                 <p class="item-size">: {{ item.size }}</p>
               </div>
               <p class="item-price">${{ item.quantityPrice }}</p>

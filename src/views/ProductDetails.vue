@@ -15,13 +15,14 @@
             v-model="this.size"
             :class="{ error: error }"
           >
-            <option value="Size" disabled>Size</option>
-            <option value="xs">xs</option>
-            <option value="s">s</option>
-            <option value="m">m</option>
-            <option value="l">l</option>
-            <option value="xl">xl</option>
-            <option value="xxl">xxl</option>
+            <option value="Size" disabled>Color</option>
+            <option value="Red">Red</option>
+            <option value="Black">Black</option>
+            <option value="Purple">Purple</option>
+            <option value="Gray">Gray</option>
+            <option value="Blue">Blue</option>
+            <option value="Gold">Gold</option>
+            <option value="White">White</option>
           </select>
           <button class="cart-button" @click.prevent="addToCart()">
             Add to cart
