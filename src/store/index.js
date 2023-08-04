@@ -39,7 +39,7 @@ export default createStore({
         description:
           "The product is refurbished, fully functional, and in excellent condition. Backed by the 90-day Amazon Renewed Guarantee.",
         type: "Phone",
-        color: "red",
+        color: "Red",
         brand: "Apple",
         gender: "women",
         id: 2,
@@ -530,7 +530,7 @@ export default createStore({
     },
     orderSuccess({ commit }) {
       commit("ORDER_SUCCESSFUL");
-    },
+},
   },
   modules: {},
 });
